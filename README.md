@@ -1,6 +1,17 @@
-# Overview of Code Implementation
+# Overview of Code Implementation for Semeval Tabulur QA-TAPAS notebook
+1. Semeval Tabulur QA-TAPAS notebook demonstrates the implementation of a question-answering system over tabular data using just the TAPAS Model. This is a zero-shot used and does not require any training.
+This notebook implements a Question Answering (QA) system using the TAPAS model from Hugging Face. It processes tabular data to answer questions based on a dataset of question-answer pairs.
 
-This notebook demonstrates the implementation of a question-answering system over tabular data using the TAPAS and T5 models. The goal is to train a model that can effectively answer questions based on the context provided by structured tables.
+## Key Steps
+
+1. **Setup**: Installs required libraries and loads the QA dataset (`semeval_dev_qa`).
+2. **Data Exploration**: Explores the dataset structure and prints sample questions and answers.
+3. **Model Preparation**: Defines a `TableDataset` class for tokenization and loads the TAPAS model.
+4. **Prediction**: Implements functions to predict answers based on table data and queries, handling both single and multi-cell answers.
+5. **Execution**: Generates predictions for the dataset and saves results to text files.
+
+# Overview of Code Implementation for Semeval Tabulur QA-TAPAS notebook
+2. Semeval Tabulur QA notebook demonstrates the implementation of a question-answering system over tabular data using the TAPAS and T5 models. The goal is to train a model that can effectively answer questions based on the context provided by structured tables.
 
 ## Key Components:
 
